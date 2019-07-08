@@ -34,10 +34,13 @@ $ sudo apt-get install python3.5
 
 The commoncrawl data set consists of 14,74,573 words and wiki data set consists of 1,63,265 words which contain some special characters as well as words from other langugages. 
 After filtering this data set using a simple unicode filter code the resulting number of words were,
+
+
 | Data set  | Before filtering | After filtering| 
 | ------ | ------ | ------ |
 | common crawl |14,74,573|12,53,814|
 |wikipedia |1,63,265|1,49,677|
+
 
 This gave us two fully filtered data set, which now can be used for our stemmer.
 
